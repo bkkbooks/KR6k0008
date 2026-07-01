@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6k0008/T/v1
+canonical_location: https://kanripo.org/bkk/KR6k0008/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 摩訶僧祇比丘尼戒本
+  identifiers:
+    krp: KR6k0008
+    cbeta: T22n1427
+    cbeta_old_id: T22n1427
+    authorityid: CA0000298
+    json_key: T1427
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T22/T22n1427.xml
+    old_id: T22n1427
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0008_000-T.yaml, hash: 'sha256:0d2c26f7dcf72e52b05a7da5bbcf7a6face12d0b27e3d80f2bae17eddb6953e7'}
+  - {seq: 1, filename: KR6k0008_001-T.yaml, hash: 'sha256:d4efe1f8a48b9a3d89d8e210a456b7ac5478edebed25d198e0bb52d4934e8956'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0008_000-T.markers.yaml, hash: 'sha256:2703b6a96f52bb8d27c9f186dabb0e3390949395923ea8a35a13525ff020a32d'}
+  - {seq: 1, role: markers, filename: assets/KR6k0008_001-T.markers.yaml, hash: 'sha256:e07d42b1292401dc551be8f094939144fca3313cd046516fb20a8e5359683c39'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0008_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11261
+  label: 摩訶僧祇比丘尼戒本
+  type: juan
+  level: 1
+hash: sha256:8aaa76be908d0fe74eb99110cc6ecfd2ad3556dbf9d46d2d76006f6068374800
