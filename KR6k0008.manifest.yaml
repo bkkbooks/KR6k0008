@@ -37,9 +37,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0008_000.yaml, hash: 'sha256:0d2c26f7dcf72e52b05a7da5bbcf7a6face12d0b27e3d80f2bae17eddb6953e7'}
-  - {seq: 1, filename: KR6k0008_001.yaml, hash: 'sha256:cee30c5493c4fd80047654285283a0235316a49a8d1a407efb28cf8e6d5cc66d'}
+  - {seq: 1, filename: KR6k0008_001.yaml, hash: 'sha256:d4efe1f8a48b9a3d89d8e210a456b7ac5478edebed25d198e0bb52d4934e8956'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6k0008_001.markers.yaml, hash: 'sha256:f1046106114ec7f6bc66489e2a01baf51d40acc6fbad08793135b24b21b838c7'}
+  - {seq: 0, role: markers, filename: assets/KR6k0008_000.markers.yaml, hash: 'sha256:a2ab430b97f1b01fc12b8ac6a5266b2e05f9bbfe5f149e0b66c3f66c197939b1'}
+  - {seq: 1, role: markers, filename: assets/KR6k0008_001.markers.yaml, hash: 'sha256:cf33203e8e5e74bc3da2f9f7566ef625242089a53cda3b685cd28f3285ce2495'}
 table_of_contents:
 - ref:
     seq: 1
@@ -51,7 +52,4 @@ table_of_contents:
   label: 摩訶僧祇比丘尼戒本
   type: juan
   level: 1
-hash: sha256:e7aea5f0d599b7eaadabb4948a061a6f13c1021c759bd36c720284f4988c30be
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:b8519b1e9604c241b55787f5b0c867616afe6c1271cddda0c1223e3568b17d07
